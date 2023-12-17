@@ -89,6 +89,8 @@
             this.Controls.Add(this.btn);
             this.Controls.Add(this.inp);
             this.Controls.Add(this.xmozi);
+            this.MaximumSize = new System.Drawing.Size(160, 85);
+            this.MinimumSize = new System.Drawing.Size(160, 85);
             this.Name = "Form1";
             this.Text = "\"す\"で始まって\"き\"で終わる言葉ゲーム";
             this.ResumeLayout(false);
